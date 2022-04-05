@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+     <!-- Define your beans here -->
+  
+   <context:property-placeholder location="classpath:field.properties" />
+   
+   
+ <bean id = "playerDietCricket" class = "org.ncu.spring.CricketFoodDiet"></bean> 
+    <bean id = "playerDietBasketBall" class = "org.ncu.spring.BasketBallFoodDiet"></bean> 
+    <bean id = "playerDietWrestling" class = "org.ncu.spring.WrestlingFoodDiet"></bean> 
+    <!-- Define your beans here -->
+   <bean id="cricket" class="org.ncu.spring.CricketPractice">
+    <constructor-arg ref="playerDietCricket"></constructor-arg>
+    </bean>
+    
+      <bean id="basketball" class="org.ncu.spring.BasketballPractice">
+      
+      <property name="FoodConsumption" value = "${foodConsumption}"></property>
+      <property name="Workout" value = "${workout}"></property>
+     <!--  <constructor-arg ref="playerDietBasketBall"></constructor-arg> --> 
+    </bean>
+      <bean id="wrestling" class="org.ncu.spring.WrestlingPractice">
+      <property name="PlayerFoodDiet" ref="playerDietWrestling"></property>
+    </bean>
+    
+</beans>
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<context:property-placeholder location="classpath:field.properties" />
+
+	<!--  Simple Way To Make Beans -->
+	<!--
+	<bean id="extraction" class="org.project.Autowiring_Modes.seriesFirst" >
+		 Using Simple or No Mode [Default]
+		<property name="series" ref="extractionDetails"></property>
+	</bean>
+
+	<bean id="extractionDetails" class="org.project.Autowiring_Modes.seriesFirstDetails"></bean>
+-->
+
+
+	
+
+	<bean class="org.project.Autowiring_Modes.seriesThree" name="series">
+		<property name="movierating" value="${movierating}"></property>
+		<property name="moviecast" value="${moviecast}"></property>
+	</bean>
+
+<bean  class="org.project.Autowiring_Modes.seriesThreeDetails" name="dd" autowire="byName"></bean>
+</beans>

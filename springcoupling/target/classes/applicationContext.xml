@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Define your beans here -->
+    <bean id = "myFortuneEnglish" class = "org.ncu.springcoupling.HappyFortuneServiceEnglish"></bean> 
+    <bean id = "myFortuneFrench" class = "org.ncu.springcoupling.HappyFortuneServiceFrench"></bean> 
+    <bean id = "myFortuneSpanish" class = "org.ncu.springcoupling.HappyFortuneServiceSpanish"></bean> 
+   <bean id="english" class="org.ncu.springcoupling.EnglishGreetingService">
+   <constructor-arg ref="myFortuneEnglish"></constructor-arg>
+    </bean>
+      <bean id="french" class="org.ncu.springcoupling.FrenchGreetingService">
+      <!--  <constructor-arg ref="myFortuneFrench"></constructor-arg> -->
+      <property name="FortuneService" ref="myFortuneFrench"></property>
+    </bean>
+      <bean id="spanish" class="org.ncu.springcoupling.SpanishGreetingService">
+       <constructor-arg ref="myFortuneSpanish"></constructor-arg>
+    </bean>
+    
+</beans>
+
+
+
+
+

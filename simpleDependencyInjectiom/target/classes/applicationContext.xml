@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:property-placeholder
+		location="classpath:field.properties" />
+
+	<!-- Simple Way To Make Beans -->
+	<bean id="extraction"
+		class="org.practice.simpleDependencyInjectiom.seriesFirst">
+		<constructor-arg ref="extractionDetails"></constructor-arg>
+	</bean>
+	<bean id="redNotice"
+		class="org.practice.simpleDependencyInjectiom.seriesTwo">
+		<property name="series" ref="redNoticeDetails"></property>
+	</bean>
+	<bean id="sixUnderground"
+		class="org.practice.simpleDependencyInjectiom.seriesThree">
+		<property name="movierating" value="${movierating}"></property>
+		<property name="moviecast" value="${moviecast}"></property>
+	</bean>
+
+	<bean id="extractionDetails"
+		class="org.practice.simpleDependencyInjectiom.seriesFirstDetails"></bean>
+	<bean id="redNoticeDetails"
+		class="org.practice.simpleDependencyInjectiom.seriesTwoDetails"></bean>
+	<bean id="sixUndergroundDetails"
+		class="org.practice.simpleDependencyInjectiom.seriesThreeDetails"></bean>
+
+
+	<!-- Using Construction -->
+	<!-- Depencency Beans To Pass the References -->
+	<!-- //Modes of Autowired //By Name <bean id="series" class="org.practice.simpleDependencyInjectiom.seriesFirstDetails"<></bean> 
+		<bean id="series" class="org.practice.simpleDependencyInjectiom.seriesFirstDetails"></bean> 
+		<bean id="redNoticeDetails" class="org.practice.simpleDependencyInjectiom.seriesTwoDetails"></bean> 
+		<bean id="sixUndergroundDetails" class="org.practice.simpleDependencyInjectiom.seriesThreeDetails"></bean> -->
+
+
+
+</beans>
+
+
+
+
+
