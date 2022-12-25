@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/Feb/2022:13:14:53 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:14:54 +0530] "GET /spring_mvc/ HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:14:57 +0530] "GET /spring_mvc/inputForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:15:10 +0530] "GET /spring_mvc/processForm?userName=avtar&userRoll=241&password=123456 HTTP/1.1" 200 272
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:32:21 +0530] "GET /spring_mvc/WEB-INF/classes/org/ncu/spring_mvc/controller/FormController.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:33:01 +0530] "GET /spring_mvc/WEB-INF/classes/org/ncu/spring_mvc/controller/FormController.java HTTP/1.1" 404 682
+127.0.0.1 - - [24/Feb/2022:13:34:27 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:34:30 +0530] "GET /spring_mvc/ HTTP/1.1" 200 462
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:36:16 +0530] "GET /spring_mvc/form/inputForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:36:27 +0530] "GET /spring_mvc/form/processForm?userName=avtar&userRoll=241&password=12345 HTTP/1.1" 200 455
+127.0.0.1 - - [24/Feb/2022:13:37:57 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:37:58 +0530] "GET /spring_mvc/ HTTP/1.1" 200 462
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:38:01 +0530] "GET /spring_mvc/form/inputForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [24/Feb/2022:13:38:17 +0530] "GET /spring_mvc/form/processForm?userName=harit&userRoll=245&password=123456 HTTP/1.1" 200 457

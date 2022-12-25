@@ -1,0 +1,17 @@
+#Tomcat publish data
+#Mon Jul 04 23:41:57 IST 2022
+org.eclipse.jst.j2ee.server\:jdbc-mvc-integration=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\jdbc-mvc-integration
+org.eclipse.jst.j2ee.server\:elibrary=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\elibrary
+org.eclipse.jst.j2ee.server\:ecommerWebsite=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\ecommerWebsite
+org.eclipse.jst.j2ee.server\:formhandling=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\formhandling
+org.eclipse.jst.j2ee.server\:spring_mvc=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\spring_mvc
+org.eclipse.jst.j2ee.server\:CookiesPractice=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\CookiesPractice
+org.eclipse.jst.j2ee.server\:ShoppingApplication=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\ShoppingApplication
+org.eclipse.jst.j2ee.server\:travellingProject=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\travellingProject
+org.eclipse.jst.j2ee.server\:SessionManagementPractice=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\SessionManagementPractice
+org.eclipse.jst.j2ee.server\:mvc_practice=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\mvc_practice
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\dell\\.m2\\repository\\org\\springframework\\spring-web\\5.3.14\\spring-web-5.3.14.jar=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\elibrary\\WEB-INF\\lib\\spring-web-5.3.14.jar
+org.eclipse.jst.j2ee.server\:new_mvc_integration=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\new_mvc_integration
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\dell\\.m2\\repository\\org\\springframework\\spring-web\\5.3.16\\spring-web-5.3.16.jar=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\CookiesPractice\\WEB-INF\\lib\\spring-web-5.3.16.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\dell\\.m2\\repository\\org\\springframework\\spring-web\\5.3.18\\spring-web-5.3.18.jar=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\travellingProject\\WEB-INF\\lib\\spring-web-5.3.18.jar
+org.eclipse.jst.j2ee.server\:spring_mvc_jdbc_integration=E\:\\MyWorkspace\\apache-tomcat-9.0.58\\wtpwebapps\\spring_mvc_jdbc_integration

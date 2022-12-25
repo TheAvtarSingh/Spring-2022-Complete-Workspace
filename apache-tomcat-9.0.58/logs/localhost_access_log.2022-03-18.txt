@@ -1,0 +1,4 @@
+127.0.0.1 - - [18/Mar/2022:13:26:38 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:13:26:40 +0530] "GET /spring_mvc/ HTTP/1.1" 200 467
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:13:26:44 +0530] "GET /spring_mvc/UserControl/display HTTP/1.1" 200 505
+0:0:0:0:0:0:0:1 - - [18/Mar/2022:13:26:54 +0530] "GET /spring_mvc/UserControl/process?name=Avtar&rollNo=241&password=12345 HTTP/1.1" 200 192

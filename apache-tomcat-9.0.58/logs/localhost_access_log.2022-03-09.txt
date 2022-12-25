@@ -1,0 +1,10 @@
+127.0.0.1 - - [09/Mar/2022:13:32:18 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:13:32:24 +0530] "GET /mvc_practice/ HTTP/1.1" 200 531
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:13:33:19 +0530] "GET /mvc_practice/UserController/display HTTP/1.1" 200 2838
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:13:34:19 +0530] "GET /mvc_practice/UserController/display HTTP/1.1" 200 2826
+127.0.0.1 - - [09/Mar/2022:22:41:34 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:22:41:36 +0530] "GET /mvc_practice/ HTTP/1.1" 200 531
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:22:41:37 +0530] "GET /mvc_practice/UserController/display HTTP/1.1" 200 2826
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:22:42:39 +0530] "POST /mvc_practice/UserController/process HTTP/1.1" 200 2989
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:22:42:49 +0530] "POST /mvc_practice/UserController/process HTTP/1.1" 200 3063
+0:0:0:0:0:0:0:1 - - [09/Mar/2022:22:43:03 +0530] "POST /mvc_practice/UserController/process HTTP/1.1" 200 459

@@ -1,0 +1,6 @@
+127.0.0.1 - - [06/May/2022:13:35:43 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [06/May/2022:13:35:45 +0530] "GET /SessionManagementPractice/ HTTP/1.1" 200 565
+0:0:0:0:0:0:0:1 - - [06/May/2022:13:35:51 +0530] "GET /SessionManagementPractice/UserController/display HTTP/1.1" 200 2554
+127.0.0.1 - - [06/May/2022:13:39:49 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [06/May/2022:13:39:50 +0530] "GET /ShoppingApplication/ HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [06/May/2022:13:39:57 +0530] "POST /ShoppingApplication/ HTTP/1.1" 200 556

@@ -1,0 +1,16 @@
+127.0.0.1 - - [28/Apr/2022:23:06:31 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:06:33 +0530] "GET /elibrary/ HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:06:42 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2208
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:06:53 +0530] "GET /elibrary/showBookForm HTTP/1.1" 200 1031
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:07:14 +0530] "POST /elibrary/processForm HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:07:18 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2538
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:07:26 +0530] "GET /elibrary/deletebooks?id=106 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:07:26 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2208
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:08:02 +0530] "GET /elibrary/searchbooks HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:08:49 +0530] "GET /elibrary/searchbooks HTTP/1.1" 200 541
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:09:08 +0530] "POST /elibrary/processBookForm HTTP/1.1" 500 7806
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:11:12 +0530] "POST /elibrary/processBookForm HTTP/1.1" 200 837
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:11:18 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2208
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:14:22 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:14:24 +0530] "GET /elibrary/searchbooks HTTP/1.1" 200 541
+0:0:0:0:0:0:0:1 - - [28/Apr/2022:23:14:26 +0530] "GET /elibrary/showbooks HTTP/1.1" 200 2278

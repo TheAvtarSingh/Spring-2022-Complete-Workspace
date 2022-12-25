@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/Feb/2022:12:26:44 +0530] "GET / HTTP/1.1" 200 11354
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:12:26:47 +0530] "GET /spring_mvc/ HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:12:26:49 +0530] "GET /spring_mvc/inputForm HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:12:27:00 +0530] "GET /spring_mvc/processForm?userName=Avtar&userRoll=20csu241&password=12345 HTTP/1.1" 200 271
